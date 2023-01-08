@@ -1,0 +1,34 @@
+.search_inputDiv{
+    text-align: center;
+    padding: 50px 0;
+}
+.search_inputDiv input{
+    width: 80%;
+    max-width: 750px;
+    height: 40px;
+    font-size: 18px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0.5px 0.2px 1px 1px grey;
+}
+.search_tableDiv{
+    display: flex;
+    justify-content: center;
+}
+.search_table{
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    border-collapse: collapse;
+}
+.search_tableHead{
+    background: #17be86;
+    color: white;
+    font-size: 18px;
+}
+.search_table td,.search_table th{
+    padding: 10px 0;
+    border: 1px groove;
+}

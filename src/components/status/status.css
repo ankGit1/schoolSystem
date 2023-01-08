@@ -1,0 +1,57 @@
+.status_schoolName{
+    text-align: center;
+}
+.status_divtop{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.status_cir1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.status_cir1::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    background-color: white;
+}
+.status_middleText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    z-index: 99;
+}
+.status_middleText h3,p{
+    margin: 0;
+}
+.status_middleText p{
+    font-size: 18px;
+}
+.status_middleText span{
+    font-size: 40px;
+}
+.status_statistics{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.status_stat_num{
+    text-align: center;
+}
+@media only screen and (max-width:700px) {
+    .status_divtop{
+        display: block;
+        text-align: -webkit-center;
+    }
+}

@@ -1,0 +1,53 @@
+.teacher_div{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    background-image: linear-gradient(to right,  #00FFAB 29%,white 29%);
+}
+.teacher_img{
+    width: 260px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 40px;
+}
+.teacher_img img{
+    width: 180px;
+    height: 180px;
+    border: 3px groove white;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: #395b58;
+}
+.teacher_info{
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+.teacher_line{
+    height: 3px;
+    width: 160px;
+    background-color: red ;
+    margin: 0 16px 40px;
+}
+.teacher_info td {
+    padding: 10px;
+}
+@media only screen and (max-width:700px) {
+    .teacher_div{
+        display: block;
+        padding: 10px 0;
+        background-image: linear-gradient(to bottom, #00FFAB 23%,white 23%);
+    }
+    .teacher_img{
+        width: 100%;
+        margin-right: 0;
+        padding: 20px 0;
+    }
+    .teacher_info{
+        /* display: flex;
+        justify-content: center; */
+        margin-left: 0;
+    }
+}

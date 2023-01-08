@@ -1,0 +1,88 @@
+.signIn_schoolName{
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+}
+.signIn_schoolName p{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: #413f3f;
+}
+.signIn_divBelow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.signIn_divAll{
+    text-align: center;
+    z-index: 99;
+}
+.signIn_divAll h1{
+    color: #413f3f;
+}
+.signIn_form{
+    padding: 36px;
+    box-shadow: 0.3px 0.3px 5px 0px;
+    border-radius: 10px;
+}
+.signIn_form input{
+    width: 260px;
+    height: 32px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+}
+.signIn_form button{
+    width: -webkit-fill-available;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 8px;
+    background: rgb(255 0 0 / 80%);
+    border: none;
+    border-radius: 20px;
+}
+.signIn_anime{
+    position: absolute;
+    width: 100%;
+}
+.signIn_anime ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.signIn_anime ul li{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: bouncing 3s linear infinite;
+}
+
+@keyframes bouncing {
+    0%{transform: translateY(0);}
+    40%{transform: translateY(-190px)}
+    80%{transform: translateY(125px)}
+    100%{transform: translateY(0);background: #00FFAB;}
+}
+
+.signIn_anime ul li:nth-child(1){
+    animation-delay: 0.3s;
+    background: yellow;
+}
+.signIn_anime ul li:nth-child(2){
+    animation-delay: 1s;
+    background: red;
+}
+.signIn_anime ul li:nth-child(3){
+    animation-delay: 0.6s;
+    background: blue;
+}
+.signIn_anime ul li:nth-child(4){
+   animation-delay: 0.1s;
+   background: navajowhite;
+}

@@ -1,0 +1,15 @@
+.statusClass_title{
+    text-align: center;
+}
+.renderClass_div{
+    display: flex;
+    justify-content: center;
+}
+.renderClass_div table{
+    width: 80%;
+    text-align: center;
+    margin: 20px 0;
+    background: #00FFAB;
+    color: #682d30;
+    font-size: 18px;
+}

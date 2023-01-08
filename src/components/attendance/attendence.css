@@ -1,0 +1,29 @@
+.attendence_attendDiv{
+    text-align: center;
+}
+.attendence_tableDiv{
+    display: flex;
+    justify-content: center;
+}
+.attendence_tableDiv table{
+    width: 80%;
+}
+.attendence_tableDiv input{
+    margin: 0 10px;
+}
+.attendence_tableDiv td,th{
+    padding: 10px 0;
+}
+.attendance_table,.attendance_table td,.attendance_table th{
+    border: 1px groove;
+}
+.attendence_attendDiv button{
+    margin: 30px 0;
+    width: 120px;
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
